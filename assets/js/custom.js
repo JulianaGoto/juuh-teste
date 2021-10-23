@@ -19,7 +19,7 @@ $(document).ready(function () {
 
         $.ajax({
             type: 'POST', 
-            url: 'https://www.github.com/juuh-teste/dados/index.php', 
+            url: 'http://www.adevipar.com/itau-entrevista/dados/index.php', 
             data: postForm, 
             dataType: 'json',
             success: function (data) {
