@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $('form').submit(function (event) { 
 
-        //pega os valores do fomulario com base no name de cada campo
+        //pega os valores do formulário com base no name de cada campo
         var postForm = {
             'nome': $('input[name=nome]').val(),
             'cpf': $('input[name=cpf]').val(),
@@ -32,8 +32,12 @@ $(document).ready(function () {
                 $("#dataNome").html(data.nome)
                 $("#dataCpf").html(data.cpf)
                 $("#dataRg").html(data.rg)
+		$("#dataSexo").html(data.sexo)
 
-                $("#dataCep").html(data.cep)
+                $("#datasexo").html(data.Feminino)
+
+                
+               $("#dataCep").html(data.cep)
                 $("#dataEndereco").html(data.end)
                 $("#dataNumero").html(data.num)
                 $("#dataBairro").html(data.bairro)
