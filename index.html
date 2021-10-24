@@ -32,7 +32,7 @@
                 <input type="text" name="nome" id="nome" placeholder="Nome" required>
             </div>
             <div class="w-25">
-                <input type="text" name="cpf" id="cpf" placeholder="CPF" required>
+                <input type="text" name="cpf" id="cpf"  onblur="return verificarCPF(this.value)" placeholder="CPF" required>
             </div>
             <div class="w-25">
                 <input type="text" name="rg" id="rg" placeholder="RG" required>
