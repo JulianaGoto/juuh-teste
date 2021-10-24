@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $('form').submit(function (event) { 
 
-        //pega os valores do formulário com base no name de cada campo
+        //pega  os valores do formulário com base no name de cada campo
         var postForm = {
             'nome': $('input[name=nome]').val(),
             'cpf': $('input[name=cpf]').val(),
